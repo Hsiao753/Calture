@@ -1,37 +1,28 @@
-name: build
+name: build # 任君喜欢
 
 on:
   push:
     branches:
-      - main # Set a branch to deploy
+      - master   # master 更新触发
 
 jobs:
-  deploy:
-    runs-on: ubuntu-20.04
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
+  build-deploy:
+    runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v3
-        with:
-          submodules: true # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+      - uses: actions/checkout@v1
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 0.145.0
-          # hugo extend or not
-          extended: true 
+          hugo-version: latest
 
-      - name: Build
-        run: hugo --minify
+      - name: Build 
+        run: hugo
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          # github_token: ${{ secrets.GITHUB_TOKEN }} # For publishing to the same repository as the source, not for a different repository
-          personal_token: ${{ secrets.Calture }}
-          external_repository: Hsiao753/hsiao753.github.io # Set the target repository
-          publish_dir: ./public
-          publish_branch: main # Set the target branch
-          cname: xxx.com # If you have a custom domain
+          personal_token: ${{ secrets.personal_token }} # 填写你自己的 personal_token
+          PUBLISH_BRANCH: gh-pages  # 推送到当前 gh-pages 分支
+          PUBLISH_DIR: ./public  # hugo 生成到 public 作为跟目录
+          commit_message: ${{ github.event.head_commit.message }}
