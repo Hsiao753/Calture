@@ -1,15 +1,6 @@
 ##########################################
-# 站点配置
 
-baseURL = "温馨提示：
-✅ 修改 config.toml 建议
-在你的 Hugo 项目的 config.toml 中，建议设置：
-
-toml
-复制
-编辑
 baseURL = "https://hsiao753.github.io/Calture/"
-这样 Hugo 会正确生成相对路径，不"
 title = "Calture"
 languageCode = "zh-CN"
 hasCJKLanguage = true
@@ -1488,14 +1479,14 @@ uglyURLs = false
         # 名字
         name = "Calture"
         # 邮箱
-        email = "reuixiy@gmail.com"
+        email = "1361356077@qq.com"
         # 座右铭或简介
-        motto = "Viva La Vida"
+        motto = "Calture"
         # 头像
         avatar = "/icons/apple-touch-icon.png"
         # 网站（默认值：baseURL）
-        website = "https://io-oi.me/"
+        website = ""
         # 推特
-        twitter = "reuixiy"
+        twitter = "calture"
         # Fediverse
         fediverse = "@reuixiy@bird.makeup"
