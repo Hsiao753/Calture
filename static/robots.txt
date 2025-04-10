@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /uploads/
-Disallow: /cards/
-Sitemap: https://guanqr.com/sitemap.xml
