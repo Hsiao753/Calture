@@ -1,7 +1,15 @@
 ##########################################
 # 站点配置
 
+baseURL = "温馨提示：
+✅ 修改 config.toml 建议
+在你的 Hugo 项目的 config.toml 中，建议设置：
+
+toml
+复制
+编辑
 baseURL = "https://hsiao753.github.io/Calture/"
+这样 Hugo 会正确生成相对路径，不"
 title = "Calture"
 languageCode = "zh-CN"
 hasCJKLanguage = true
@@ -199,6 +207,12 @@ uglyURLs = false
         weight = 3
         pre = "internal"
         post = "th"
+    [[menu.main]]
+        pageref = "/about/"
+        name = "关于"
+        weight = 5
+        pre = "internal"
+        post = "user-circle"
     [[menu.main]]
         weight = 6
         identifier = "theme-switcher"
@@ -1268,7 +1282,6 @@ uglyURLs = false
     # 是否开启
     enableFooter = true
 
-
     # 是否显示
     displayFooter = true
 
@@ -1469,7 +1482,6 @@ uglyURLs = false
         utterances = "https://utteranc.es/client.js"
 
 
-
     ######################################
     # 作者信息
     [params.author]
@@ -1486,4 +1498,4 @@ uglyURLs = false
         # 推特
         twitter = "reuixiy"
         # Fediverse
-        fediverse = "@reuixiy@bird.makeup"   
+        fediverse = "@reuixiy@bird.makeup"
