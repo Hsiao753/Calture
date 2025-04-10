@@ -200,12 +200,6 @@ uglyURLs = false
         pre = "internal"
         post = "th"
     [[menu.main]]
-        pageref = "/about/"
-        name = "关于"
-        weight = 5
-        pre = "internal"
-        post = "user-circle"
-    [[menu.main]]
         weight = 6
         identifier = "theme-switcher"
     [[menu.main]]
@@ -340,11 +334,11 @@ uglyURLs = false
     #      Open Graph、Atom、RSS
 
     # 站点的创建时间
-    siteCreatedTime = "1969-07-20T20:17:43+00:00"
+    siteCreatedTime ="2025-04-11T02:40:44+08:00"
     # 注意：请保持此格式，更改数字
 
     # 站点的推特帐号
-    siteTwitter = "reuixiy"
+    siteTwitter = "TzuhsiaoC"
     # 说明：用于 Twitter Cards
 
 
@@ -1274,6 +1268,7 @@ uglyURLs = false
     # 是否开启
     enableFooter = true
 
+
     # 是否显示
     displayFooter = true
 
@@ -1316,7 +1311,7 @@ uglyURLs = false
     #      https://busuanzi.ibruce.info/
 
     # 社交链接
-    enableSocials = true
+    enableSocials = false
     # 说明：见 data/Socials.toml
 
 
@@ -1474,11 +1469,12 @@ uglyURLs = false
         utterances = "https://utteranc.es/client.js"
 
 
+
     ######################################
     # 作者信息
     [params.author]
         # 名字
-        name = "reuixiy"
+        name = "Calture"
         # 邮箱
         email = "reuixiy@gmail.com"
         # 座右铭或简介
@@ -1490,4 +1486,4 @@ uglyURLs = false
         # 推特
         twitter = "reuixiy"
         # Fediverse
-        fediverse = "@reuixiy@bird.makeup"
+        fediverse = "@reuixiy@bird.makeup"   
