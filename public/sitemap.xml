@@ -1,1 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://hsiao753.github.io/Calture/posts/day-for-dream-night-for-think/</loc><lastmod>2025-04-11T02:40:44+08:00</lastmod></url><url><loc>https://hsiao753.github.io/Calture/tags/</loc><lastmod>2025-04-11T02:40:44+08:00</lastmod></url><url><loc>https://hsiao753.github.io/Calture/tags/%E6%B5%8B%E8%AF%95/</loc><lastmod>2025-04-11T02:40:44+08:00</lastmod></url><url><loc>https://hsiao753.github.io/Calture/categories/%E9%9A%8F%E7%AC%94/</loc><lastmod>2025-04-11T02:40:44+08:00</lastmod></url><url><loc>https://hsiao753.github.io/Calture/about/</loc><lastmod>2025-04-09T17:10:28+08:00</lastmod></url><url><loc>https://hsiao753.github.io/Calture/calture/</loc><lastmod>2025-04-09T17:24:25+08:00</lastmod></url><url><loc>https://hsiao753.github.io/Calture/categories/</loc><lastmod>2024-07-21T18:45:45+08:00</lastmod></url><url><loc>https://hsiao753.github.io/Calture/archives/</loc><lastmod>2025-04-11T02:17:13+08:00</lastmod></url><url><loc>https://hsiao753.github.io/Calture/</loc><lastmod>2025-04-09T17:44:42+08:00</lastmod></url><url><loc>https://hsiao753.github.io/Calture/posts/</loc><lastmod>2025-04-11T02:14:12+08:00</lastmod></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/Calture/posts/day-for-dream-night-for-think/</loc>
+    <lastmod>2025-04-11T02:40:44+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Calture/tags/</loc>
+    <lastmod>2025-04-11T02:40:44+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Calture/tags/%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2025-04-11T02:40:44+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Calture/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2025-04-11T02:40:44+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Calture/about/</loc>
+    <lastmod>2025-04-09T17:10:28+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Calture/calture/</loc>
+    <lastmod>2025-04-09T17:24:25+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Calture/categories/</loc>
+    <lastmod>2024-07-21T18:45:45+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Calture/archives/</loc>
+    <lastmod>2025-04-11T02:17:13+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Calture/</loc>
+    <lastmod>2025-04-09T17:44:42+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Calture/posts/</loc>
+    <lastmod>2025-04-11T02:14:12+08:00</lastmod>
+  </url>
+</urlset>
